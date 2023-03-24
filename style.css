@@ -1,0 +1,38 @@
+
+/* css on container */
+
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 10px;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 5px black;
+}
+/* design on button */
+button{
+     padding: 5px 14px;
+     font-weight: bold;
+     font-size: 1rem;
+}
+#zeroBtn{
+border: 1px solid black;
+padding: 5px 15px;
+font-size: 20px;
+}
+
+
